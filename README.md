@@ -43,7 +43,7 @@ And then execute:
 
 ```bash
 $ rails once:install:migrations
-$ rails db:migrations
+$ rails db:migrate
 ```
 
 ## Contributing

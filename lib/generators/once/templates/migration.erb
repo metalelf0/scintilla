@@ -1,0 +1,13 @@
+class CreateOnceTables < ActiveRecord::Migration<%= migration_version %>
+  def self.up
+    create_table :once_scripts do |t|
+      t.string   :filename
+      t.datetime :ran_at
+    end
+    add_index :once_scripts, :filename
+  end
+
+  def self.down
+    drop_table :once_scripts
+  end
+end

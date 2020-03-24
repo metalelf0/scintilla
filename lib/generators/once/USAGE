@@ -1,0 +1,8 @@
+Description:
+    This generator creates a once script under db/once
+
+Example:
+    rails generate once DoSomething
+
+    This will create:
+       db/once/<timestamp>_do_something.rb

@@ -3,6 +3,6 @@
 namespace :once do
   desc 'Run Once scripts'
   task run: :environment do
-    Once::Runner.scripts(false).each(&:run)
+    Once::Runner.run
   end
 end

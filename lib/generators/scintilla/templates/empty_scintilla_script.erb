@@ -1,0 +1,9 @@
+class KlassName < Scintilla::Runnable
+  def initialize
+    @file_name = Scintilla::Runner.script_name(__FILE__, false)
+  end
+
+  def do_the_stuff
+    # put your logic here
+  end
+end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  mount Once::Engine => "/once"
+  mount Scintilla::Engine => '/scintilla'
 end

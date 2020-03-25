@@ -1,0 +1,8 @@
+Description:
+    This generator creates a scintilla script under db/scintilla
+
+Example:
+    rails generate scintilla DoSomething
+
+    This will create:
+       db/scintilla/<timestamp>_do_something.rb

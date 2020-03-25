@@ -1,2 +1,4 @@
-Once::Engine.routes.draw do
+# frozen_string_literal: true
+
+Scintilla::Engine.routes.draw do
 end

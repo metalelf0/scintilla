@@ -48,7 +48,7 @@ $ rails db:migrate
 
 ## Contributing
 
-Feel free to open issues and PRs, fork the project as you want, I'll try to giver
+Feel free to open issues and PRs, fork the project as you want ;)
 
 
 ## License
